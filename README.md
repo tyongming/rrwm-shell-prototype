@@ -1,9 +1,13 @@
-# RRWM-style shell prototype
+# PT. Metagama four-page shell prototype
 
 PROTOTYPE — THROWAWAY CODE. Do not deploy this as the production WordPress site.
 
-Three variants of a technology company website, switchable with `?variant=A`,
-`?variant=B`, or `?variant=C` on one route.
+The selected A visual direction has been extended into four independent paths:
+
+- `/`
+- `/products-services`
+- `/about-us`
+- `/contact`
 
 Run with one command:
 
@@ -11,13 +15,9 @@ Run with one command:
 npm.cmd run dev
 ```
 
-Question being answered: which visual structure should be carried into the
-WordPress build?
-
-Public prototype: https://tyongming.github.io/rrwm-shell-prototype/
-
-Build the GitHub Pages artifact with `npm.cmd run build:pages`. GitHub Pages
-serves the generated `docs` directory from the `main` branch.
+Question being answered: how should the selected A direction extend across the
+four-page WordPress website?
 
 All external photos are prototype-only. See `IMAGE_SOURCES.md` for official
-source pages, license checks, and production-use cautions.
+source pages, license checks, and production-use cautions. The production brief
+requires newly generated, logo-free visuals instead.
