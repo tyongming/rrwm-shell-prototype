@@ -338,7 +338,7 @@ export default function App() {
       {variant === "A" && <VariantA />}
       {variant === "B" && <VariantB />}
       {variant === "C" && <VariantC />}
-      {import.meta.env.DEV && <PrototypeSwitcher current={variant} onChange={changeVariant} />}
+      <PrototypeSwitcher current={variant} onChange={changeVariant} />
     </main>
   );
 }
